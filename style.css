@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: #f1f4f9;
+    overflow-x: hidden;
+    font-family:  Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.top{
+   width: 300px;
+   background-size: cover;
+   position: relative; 
+}
+.top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+ }
+.right{
+    
+    width: 276px;
+    margin-left: 15px;
+    margin-top: 390px;
+    height: fit-content;
+    border:solid 1px #247297;
+    border-radius: 5px;
+    background-color:white;
+
+}
+/*.right img {
+    width:100%;
+    height: 100%; 
+    object-position: center; 
+ }*/
+
+.input{
+    border:solid 1px #247297;
+    height: 360px;
+    width: 276px;
+    margin-left: 15px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 5px;
+    background-color: white;
+}
+.internalinput{
+    height: 50px;
+    background-color:#247297;
+    width: 100%;
+}
+.text{
+    color: white;
+    font-size: large;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.input p{
+    padding-left: 10px;
+    font-size:large;
+}
+.re-input{
+    padding-left: 15px;
+}
+input{
+    width: 230px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+
+}
+.forgot{
+    padding-left: 15px;
+    padding-top: 5px;
+    color: #4299cd;
+}
+.sh-input{
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.img{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.aboutas{
+    height: 60px;
+    background-color: #247297;
+    padding: 15px 15px;
+    color: white;
+    font-size: large;
+}
+.re-aboutas{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: large;
+
+}
+.ab-para{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.last{
+    width: 300px;
+    height: 50px;
+    border-top:solid 1px #caccce;
+    margin-top: 40px;
+    background-color: white;
+}
+.re-container{
+    width: 276px;
+    height:fit-content;
+    border: solid 1px #247297;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-top: 400px;
+
+}
+.he-container{
+    height: 55px;
+    background-color: #247297;
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+    }
+ 
+
+.container {
+    background-color: white;
+    /*padding: 20px;*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-info {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-info th, .student-info td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #247297;
+}
+
+.student-info th {
+    /*background-color: #007BFF;*/
+    color: black;
+}
+
+/*.student-info tr:nth-child(odd) td {
+    background-color: #f9f9f9;
+}
+
+.student-info .total {
+    font-weight: bold;
+}
+
+.student-info .total td {
+    background-color: #e0e0e0;
+}*/
+.right_last{
+    margin-top: 20px;
+}

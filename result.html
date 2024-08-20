@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top"><img src="top2.png" alt=""></div>
+        <div class="input">
+            <div class="internalinput">
+                <div class="text"><b>Check Registration</b></div>
+            </div>
+            <p>Registration number</p>
+            <div class="re-input">
+                <input type="text" id="registration_number" placeholder="    XXXXXX">
+            </div>
+            <div class="forgot">Forgot admission number?</div>
+            <div class="sh-input">School Code</div>
+            <div class="re-input">
+                <input type="text" id="school_code" placeholder="  XXXXXX">
+            </div>
+            <div class="img"><a href="index.html"><img src="link.png" alt=""></a></div>
+        </div>
+
+        <div class="re-container">
+            <div class="he-container"><b>The Ethiopian University Entrance <br>Examination Result</b></div>
+            <div class="container">
+                <table class="student-info">
+                    <tr>
+                        <th>Admission Number</th>
+                        <td id="admission_number"></td>
+                    </tr>
+                    <tr>
+                        <th>First Name</th>
+                        <td>TOFIK</td>
+                    </tr>
+                    <tr>
+                        <th>Father Name</th>
+                        <td>NEGAW</td>
+                    </tr>
+                    <tr>
+                        <th>Grandfather</th>
+                        <td>ABEBE</td>
+                    </tr>
+                    <tr>
+                        <th>Gender</th>
+                        <td>M</td>
+                    </tr>
+                    <tr>
+                        <th>School Code</th>
+                        <td id="school_num"></td>
+                    </tr>
+                    <tr>
+                        <th>School</th>
+                        <td>HOTI(R)</td>
+                    </tr>
+                    <tr>
+                        <th>English</th>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th>Aptitude</th>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <th>Biology</th>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <th>Physics</th>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <th>Natural Math</th>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <th>Chemsitry</th>
+                        <td>29</td>
+                    </tr>
+                    <tr class="total">
+                        <th>Total</th>
+                        <td>151</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="right right_last">
+            <div class="aboutas"><b>EAES: Educational <br>Assessment and Examination <br>Services</b></div>
+        <div class="re-aboutas"><b>About us!</b></div>
+        <div class ="ab-para">
+            <p>Educational Assessment and Examination Services (EAES) among others has a powers and duties of preparing country wide national examinations based on the country's education curriculum and training policy, Administer and ensure the confidentiality and safety of national exams, Establish and administer a center for the safe custody of the results of national exams, Issue certificates of exam results to examinees. Conduct educational assessment, provide different customer-based services like: Re-issuing certificate, document verification and authentication and also announce the exam results.</p>
+        </div>
+        <div class="re-aboutas"><b>More Info</b></div>
+        <div class ="ab-para"><p>To accomplish its duties, the Service office, led by a Director General and two Deputy Director Generals, is organized with four main line staffs.</p></div>
+        <div>
+            <ul>
+                <li>National Examination <br>Development (የብሔራዊ ፈተና ዝግጅት)</li>
+                <li>Exam Administration (ፈተና አስተዳደር)</li>
+                <li>Digital Educational Document Service (ዲጂታል የትምህርት ማስረጃ አገልግሎት)</li>
+                <li>Educational Assessment and Research (የትምህርት ምዘናና<br> ምርምር)</li>
+            </ul>
+        </div>
+        </div>
+        <div class="last"></div> 
+    </div>
+    <script>
+        // Parse URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const registrationNumber = urlParams.get('registration_number');
+        const schoolCode = urlParams.get('school_code');
+
+        // Display the extracted data
+        if (schoolCode) {
+            document.getElementById('school_num').textContent = schoolCode;
+        }
+        if (registrationNumber) {
+            document.getElementById('admission_number').textContent = registrationNumber;
+        }
+    </script>
+</body>
+</html>
